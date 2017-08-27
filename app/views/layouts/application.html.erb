@@ -41,7 +41,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><span>M</span>oderna</a>
+                    <a class="navbar-brand" href="index.html"><span>The </span> Careeryst</a>
                 </div>
                 <div class="navbar-collapse collapse ">
                     <ul class="nav navbar-nav">
@@ -263,10 +263,13 @@
 
   </div>
   </section>
+
+  <%= yield %>
+
   <footer>
   <div class="container">
     <div class="row">
-      <div class="col-lg-3">
+      <div class="col-lg-4">
         <div class="widget">
           <h5 class="widgetheading">Get in touch with us</h5>
           <address>
@@ -279,7 +282,7 @@
           </p>
         </div>
       </div>
-      <div class="col-lg-3">
+      <div class="col-lg-4">
         <div class="widget">
           <h5 class="widgetheading">Pages</h5>
           <ul class="link-list">
@@ -291,7 +294,7 @@
           </ul>
         </div>
       </div>
-      <div class="col-lg-3">
+      <div class="col-lg-4">
         <div class="widget">
           <h5 class="widgetheading">Latest posts</h5>
           <ul class="link-list">
@@ -301,20 +304,8 @@
           </ul>
         </div>
       </div>
-      <div class="col-lg-3">
-        <div class="widget">
-          <h5 class="widgetheading">Flickr photostream</h5>
-          <div class="flickr_badge">
-            <script type="text/javascript" src="https://www.flickr.com/badge_code_v2.gne?count=8&amp;display=random&amp;size=s&amp;layout=x&amp;source=user&amp;user=34178660@N03"></script>
-          </div>
-          <div class="clear">
-          </div>
-        </div>
-      </div>
     </div>
   </div>
-
-  <%= yield %>
 
   <div id="sub-footer">
     <div class="container">
@@ -362,6 +353,9 @@
 <script src="js/jquery.flexslider.js"></script>
 <script src="js/animate.js"></script>
 <script src="js/custom.js"></script>
+
+<p class="notice"><%= notice %></p>
+<p class="alert"><%= alert %></p>
 
 </body>
 </html>
